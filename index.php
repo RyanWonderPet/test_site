@@ -46,7 +46,7 @@
         <a class="nav-link" href="#">BLOG <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">CONTACT <span class="sr-only">(current)</span></i></a>
+        <a class="nav-link" href="contact.php">CONTACT <span class="sr-only">(current)</span></i></a>
       </li> 
       <li class="nav-item" style="margin-top: 6px ">|</li> 
       <li class="nav-item">

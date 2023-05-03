@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="main.css">
     </head>
 
-    <header>
+<header>
  <nav class="navbar navbar-expand-lg navbar-light">
   <a class="navbar-brand font-weight-bold" style="margin-left: 150px" href="#"><span style="color: green">TEST</span>SITE</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -46,7 +46,7 @@
         <a class="nav-link" href="#">BLOG <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">CONTACT <span class="sr-only">(current)</span></i></a>
+        <a class="nav-link" href="contact.php">CONTACT <span class="sr-only">(current)</span></i></a>
       </li> 
       <li class="nav-item" style="margin-top: 6px ">|</li> 
       <li class="nav-item">
@@ -68,9 +68,6 @@
  </header>
     <body>
 
-<
-
-
 
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
@@ -79,8 +76,39 @@
     <script src="https://kit.fontawesome.com/ccb46faed6.js" crossorigin="anonymous"></script>
 
 
+    <section>
+  <div style="margin-bottom: 40px;">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d471220.5631094339!2d88.04952462217592!3d22.6757520733225!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f882db4908f667%3A0x43e330e68f6c2cbc!2sKolkata%2C%20West%20Bengal!5e0!3m2!1sen!2sin!4v1596988408134!5m2!1sen!2sin" width="100%" height="300" frameborder="1" style="border: 1px;"></iframe>
+</div>
+</section>
+ 
+<div class="card-deck" style="padding-left: 14.5%; padding-right: 14.5%; padding-top: 2%; padding-bottom: 2%">
+  <div class="card shadow " style="height:  60px">
+    <div class="card-body">
+    <div class="container">
+  <div class="row">
+    <div class="col-sm">
+    <i class="fa-location"></i>One of three columns
+    </div>
+    <div class="col-sm">
+      One of three columns
+    </div>
+    <div class="col-sm">
+      One of three columns
+    </div>
+  </div>
+</div>
+    </div>
+  </div>
+
+</div>
 
 </body>
+
+
+
+
+
 
 
 <!-- Footer -->
