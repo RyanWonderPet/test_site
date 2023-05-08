@@ -1,18 +1,18 @@
-
 <!DOCTYPE html>
 <html lang="en">
-    <head >
+    <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
     <title>Test Site</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="main.scss">
-    </head>
-    <body>
+    <link rel="stylesheet" href="/css/all.min.css">
 
-<header>
+    </head>
+
+    <header>
     <nav class="navbar navbar-expand-lg navbar-light">
     <a class="navbar-brand font-weight-bold" style="margin-left: 150px" href="#">
     <span style="color: green">TEST</span>SITE</a>
@@ -81,15 +81,15 @@
   </div>
 </nav>
 
-<div class="Home/Services">
+<div class="home/Testimonials">
     <div class="">
-        <div class="float-left text-white" style="background-color:rgb(38, 204, 40 ); width: 100%; height: 40px; padding-top: 8px"><span style="margin-left: 168px;">Services<span class="float-right" style="margin-right: 220px;">Home / Services<span></span></span></span></div>
+        <div class="float-left text-white" style="background-color:rgb(38, 204, 40 ); width: 100%; height: 40px; padding-top: 8px"><span style="margin-left: 168px;">Testimonials<span class="float-right" style="margin-right: 220px;">Home / Testimonials<span></span></span></span></div>
     </div>
 </div>
 </header>
+    <body>
 
 
-<body>
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
@@ -97,181 +97,98 @@
     <script src="https://kit.fontawesome.com/ccb46faed6.js" crossorigin="anonymous"></script>
 
 
-<div class="box">
-    <div id="newcontain" class="container">
-     	<div class="row">
 
-<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-    <div id="boxes" class="box-part text-center">
-        <img class="pic1" src="img/1st.png" class="card-img-top" alt="...">
 
-        <div class="title">
-	    	<h4>Lorem Ipsum</h4>
-		</div>
+<div class="row row-cols-1 row-cols-md-2 g-4 container col-md-8 offset-md-2" style="margin-top: 6%; margin-bottom: 2%;">
+  <div class="col">
+    <div class="card shadow">
+      <div class="card-body">
+      <img class="float-left" src="img/p1.png" class="card-img-top"
+        <h5 class="card-title"><strong>Soul Goodman</strong></h5>
+        <p class="text-muted" style="font-size: 10px;">Ceo & Founder</p>
+        <p class="card-text text-secondary font-italic">
+        <i class="fa-solid fa-quote-left" style="color: #b5bab6;"></i>&nbsp;This is a longer card with supporting text below as a natural lead-in to
+          additional content. This content is a little bit longer.&nbsp;<i class="fa-solid fa-quote-right" style="color: #b5bab6;"></i>
 
-        <div class="text">
-			<span>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</span>
-		</div>
-
+      </div>
     </div>
-</div>
+  </div>
+  <div class="col">
+    <div class="card shadow">
+      <div class="card-body">
+      <img class="float-left" src="img/p2.png" class="card-img-top"
+        <h5 class="card-title"><strong>Sara Wilsson</strong></h5>
+        <p class="text-muted" style="font-size: 10px;">Ceo & Founder</p>
+        <p class="card-text text-secondary font-italic"><i class="fa-solid fa-quote-left" style="color: #b5bab6;"></i>&nbsp;This is a longer card with supporting text below as a natural lead-in to
+          additional content. This content is a little bit longer.&nbsp;<i class="fa-solid fa-quote-right" style="color: #b5bab6;"></i>
 
-<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-    <div id="midbox" class="box-part text-center">
-        <img class="pic1" src="img/pic 2.png" class="card-img-top" alt="...">
-
-        <div class="title">
-			<h4>Twitter</h4>
-		</div>
-
-        <div class="text">
-			<span>Lorem ipsum dolor sit amet, id quo eruditi eloquentiam. Assum decore te sed. Elitr scripta ocurreret qui ad.</span>
-		</div>
-
+      </div>
     </div>
-</div>
-
-<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-    <div id="boxess" class="box-part text-center">
-        <img class="pic1" src="img/pic3.png" class="card-img-top" alt="...">
-
-        <div class="title">
-			<h4>Facebook</h4>
-		</div>
-
-		<div class="text">
-			<span>Lorem ipsum dolor sit amet, id quo eruditi eloquentiam. Assum decore te sed. Elitr scripta ocurreret qui ad.</span>
-		</div>
-
-	</div>
-</div>
-
-<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-	<div id="bot1" class="box-part text-center">
-        <img class="pic1" src="img/pic4.png" class="card-img-top" alt="...">
-
-        <div class="title">
-		    <h4>Pinterest</h4>
-		</div>
-
-		<div class="text">
-			<span>Lorem ipsum dolor sit amet, id quo eruditi eloquentiam. Assum decore te sed. Elitr scripta ocurreret qui ad.</span>
-		</div>
-
+    <br>
+  </div>
+  <div class="col font">
+    <div class="card shadow">
+      <div class="card-body">
+      <img class="float-left" src="img/p3.png" class="card-img-top"
+        <h5 class="card-title"><strong>Jena Karlis</strong></h5>
+        <p class="text-muted" style="font-size: 10px;">Ceo & Founder</p>
+        <p class="card-text text-secondary font-italic">&nbsp;<i class="fa-solid fa-quote-left" style="color: #b5bab6;"></i>&nbsp; This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.&nbsp;<i class="fa-solid fa-quote-right" style="color: #b5bab6;"></i></p>
+      </div>
     </div>
-</div>
-
-
-<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-    <div id="bot2" class="box-part text-center">
-        <img class="pic1" src="img/pic5.png" class="card-img-top" alt="...">
-
-        <div class="title">
-		    <h4>Google</h4>
-		</div>
-
-		<div class="text">
-			<span>Lorem ipsum dolor sit amet, id quo eruditi eloquentiam. Assum decore te sed. Elitr scripta ocurreret qui ad.</span>
-		</div>
-
-     </div>
-</div>
-
-<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-	<div id="bot3" class="box-part text-center">
-        <img class="pic1" src="img/pic6.png" class="card-img-top" alt="...">
-
-        <div class="title">
-			<h4>Github</h4>
-		</div>
-
-		<div class="text">
-			<span>Lorem ipsum dolor sit amet, id quo eruditi eloquentiam. Assum decore te sed. Elitr scripta ocurreret qui ad.</span>
-		</div>
-    </div>
-</div>
-
-        </div>
-    </div>
-</div>
-
-<div>
-    <h1 class="text-center" style="font-size: 22px; margin-top: 2%;">FEATURES</h1>
-    <p class="text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus suscipit fugit excepturi rem! Consequuntur voluptate voluptatibus totam qui quasi, <br >dolorem distinctio, saepe veniam, nulla ex vel nobis et culpa repellat?</p>
-</div>
-
-<div class="card-deck" style="padding-left: 14.5%; padding-right: 14.5%; padding-top: 2%">
-  <div class="card shadow " style="height:  60px">
-    <div class="card-body">
-      <h5 class="card-title" style="font-size: 15px"><i class="fa-solid fa-store" style="color: #f0ea47;"></i>&nbsp; Lorem Ipsum</h5>
+  </div>
+  <div class="col">
+    <div class="card shadow">
+      <div class="card-body">
+      <img class="float-left" src="img/p4.png" class="card-img-top"
+        <h5 class="card-title"><strong>Matt Brandon</strong></h5>
+        <p class="text-muted" style="font-size: 10px;">Ceo & Founder</p>
+        <p class="card-text text-secondary font-italic">
+        <i class="fa-solid fa-quote-left" style="color: #b5bab6;"></i> This is a longer card with supporting text below as a natural lead-in to
+          additional content. This content is a little bit longer.&nbsp;<i class="fa-solid fa-quote-right" style="color: #b5bab6;"></i>
+        </p>
+      </div>
     </div>
   </div>
 
-  <div class="card shadow " style="height:  60px">
-    <div class="card-body">
-      <h5 class="card-title" style="font-size: 15px"><i class="fa-solid fa-chart-simple" style="color: #2e6ad1;"></i>&nbsp;Dolor Sitama</h5>
-    </div>
+</div>
 
-  </div>
-  <div class="card shadow " style="height:  60px">
-    <div class="card-body">
-      <h5 class="card-title" style="font-size: 15px"><i class="fa-solid fa-calendar" style="color: #fc47ff;"></i>&nbsp; Sed perspiciatis</h5>
+<div class="row row-cols-1 row-cols-md-2 g-4 container col-md-8 offset-md-2" style="margin-top: 2%; margin-bottom: 2%;">
+  <div class="col">
+    <div class="card shadow">
+      <div class="card-body">
+      <img class="float-left" src="img/p5.png" class="card-img-top"
+        <h5 class="card-title"><strong>John Larson</strong></h5>
+        <p class="text-muted" style="font-size: 10px;">Ceo & Founder</p>
+        <p class="card-text text-secondary font-italic">
+        <i class="fa-solid fa-quote-left" style="color: #b5bab6;"></i>&nbsp;This is a longer card with supporting text below as a natural lead-in to
+          additional content. This content is a little bit longer.&nbsp;<i class="fa-solid fa-quote-right" style="color: #b5bab6;"></i>
+        </p>
+      </div>
     </div>
   </div>
-
-  <div class="card shadow " style="height:  60px">
-    <div class="card-body">
-      <h5 class="card-title" style="font-size: 15px"><i class="fa-solid fa-paint-roller" style="color: #ea57e5;"></i>&nbsp; Magni dolores</h5>
+  <div class="col">
+    <div class="card shadow">
+      <div class="card-body">
+      <img class="float-left" src="img/p6.png" class="card-img-top"
+        <h5 class="card-title"><strong>Emily Harison</strong></h5>
+        <p class="text-muted" style="font-size: 10px;">Ceo & Founder</p>
+        <p class="card-text text-secondary font-italic">
+        <i class="fa-solid fa-quote-left" style="color: #b5bab6;"></i>&nbsp;This is a longer card with supporting text below as a natural lead-in to
+          additional content. This content is a little bit longer.&nbsp;<i class="fa-solid fa-quote-right" style="color: #b5bab6;"></i>
+        </p>
+      </div>
     </div>
+    <br>
   </div>
 </div>
 
-</div>
-<div class="card-deck" style="padding-left: 14.5%; padding-right: 14.5%; padding-top: 2%">
-  <div class="card shadow " style="height:  60px">
-    <div class="card-body">
-      <h5 class="card-title" style="font-size: 15px"><i class="fa-solid fa-coins" style="color: #1e95f1;"></i>&nbsp; Nemo enim</h5>
-    </div>
-  </div>
-  <div class="card shadow " style="height:  60px">
-    <div class="card-body">
-      <h5 class="card-title" style="font-size: 15px"><i class="fa-regular fa-circle-dot" style="color: #eac980;"></i>&nbsp;Eiusmod tempor</h5>
-    </div>
-  </div>
-  <div class="card shadow " style="height:  60px">
-    <div class="card-body">
-      <h5 class="card-title" style="font-size: 15px"><i class="fa-solid fa-clipboard-list" style="color: #51e1d8;"></i>&nbsp;Midela taren</h5>
-    </div>
-  </div>
-  <div class="card shadow " style="height:  60px">
-    <div class="card-body">
-      <h5 class="card-title" style="font-size: 15px"><i class="fa-solid fa-warehouse" style="color: #2452a3;"></i>&nbsp;Pira Neve</h5>
-    </div>
-  </div>
-</div>
 
-<div class="card-deck" style="padding-left: 14.5%; padding-right: 14.5%; padding-top: 2%; padding-bottom: 2%">
-  <div class="card shadow " style="height:  60px">
-    <div class="card-body">
-      <h5 class="card-title" style="font-size: 15px"><i class="fa-solid fa-anchor" style="color: #d18010;"></i>&nbsp;Dirada pack</h5>
-    </div>
-  </div>
-  <div class="card shadow " style="height:  60px">
-    <div class="card-body">
-      <h5 class="card-title" style="font-size: 15px"><i class="fa-regular fa-circle-play" style="color: #a52275;"></i>&nbsp;Moton ideal</h5>
-    </div>
-  </div>
-  <div class="card shadow " style="height:  60px">
-    <div class="card-body">
-      <h5 class="card-title" style="font-size: 15px"><i class="fa-solid fa-tower-broadcast" style="color: #f1870e;"></i>&nbsp;Verdo Park</h5>
-    </div>
-  </div>
-  <div class="card shadow " style="height:  60px">
-    <div class="card-body">
-      <h5 class="card-title" style="font-size: 15px"><i class="fa-solid fa-fingerprint" style="color: #079711;"></i>&nbsp;Flavor Nivelanda</h5>
-    </div>
-  </div>
-</div>
+</body>
+
+
+
+
+
 
 
 <!-- Footer -->
@@ -379,35 +296,32 @@
   <!-- Section: Links  -->
 
   <!-- Copyright -->
-  <div class="text-left p-4 text-white-50" style="background-color: rgba(0, 0, 0, 0.952);">
-    &emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;© Copyright <span class="text-white font-weight-bold" >TestSite.</span>
-    All Rights Reserve
+  <div class="text-left p-4 text-white" style="background-color: rgba(0, 0, 0, 0.952);">
+    © 2021 Copyright:
+    <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
     <div class="col-md-3 col-lg-2 col-xl-2 float-right mb-4">
     <div>
       <a href="" class="me-4 link-secondary">
-      <i class="fa-brands fa-twitter" style="color: #d4d4d4;"></i>
+        <i class="fab fa-facebook-f"></i>
       </a>
-      &nbsp;
       <a href="" class="me-4 link-secondary">
-      <i class="fa-brands fa-facebook" style="color: #d4d4d4;"></i>
+        <i class="fab fa-twitter"></i>
       </a>
-      &nbsp;
       <a href="" class="me-4 link-secondary">
-      <i class="fa-brands fa-instagram" style="color: #d4d4d4;"></i>
+        <i class="fab fa-google"></i>
       </a>
-      &nbsp;
       <a href="" class="me-4 link-secondary">
-      <i class="fa-brands fa-skype" style="color: #d4d4d4;"></i>
+        <i class="fab fa-instagram"></i>
       </a>
-      &nbsp;
       <a href="" class="me-4 link-secondary">
-      <i class="fa-brands fa-linkedin-in" style="color: #d4d4d4;"></i>
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="" class="me-4 link-secondary">
+        <i class="fab fa-github"></i>
       </a>
     </div>
   </div>
   <!-- Copyright -->
 </footer>
 <!-- Footer -->
-
-</body>
     </html>
