@@ -25,7 +25,7 @@
                   ABOUT
                   </a>
                   <div class="dropdown-menu">
-                     <a class="dropdown-item" href="carousel.php">About Us</a>
+                     <a class="dropdown-item" href="about.php">About Us</a>
                      <a class="dropdown-item" href="team.php">Team</a>
                      <a class="dropdown-item" href="testimonials.php">Testimonials</a>
                      <a class="dropdown-toggle text-dark" style="font-size: 13px; margin-left: 25px" href="#" role="button" data-toggle="dropdown" >

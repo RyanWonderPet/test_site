@@ -1,0 +1,52 @@
+#div-name-email
+{
+    width: 100%;
+    min-height: 30px;
+}
+
+#div-name
+{
+    width: 50%;
+    min-height: 30px;
+    float: left;
+    margin-bottom: 10px;
+}
+
+#div-email
+{
+    width: 50%;
+    min-height: 30px;
+    float: right;
+}
+
+#subject
+{
+    margin-bottom: 10px;
+}
+
+.clearfix::after
+{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#your_name
+{
+    width: 360px;
+}
+
+#your_email
+{
+    width: 360px;
+}
+
+#subject
+{
+    width: 762px;
+}
+
+#textarea
+{
+    width: 763px;
+}

@@ -4,15 +4,14 @@
       <!-- Required meta tags -->
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <link rel="stylesheet" href="css/main.css">
       <!-- CSS -->
       <link rel="stylesheet" href="styles_mon.css">
-      <link rel="stylesheet" href="css/main.css">
-      <link rel="stylesheet" href="css/portfoio.css">
       <!-- Bootstrap CSS -->
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
       <!-- Fontawesome -->
       <script src="https://kit.fontawesome.com/ccb46faed6.js" crossorigin="anonymous"></script>
-      <title>Portfolio</title>
+      <title>Team</title>
    </head>
    <body>
       <header>
@@ -77,32 +76,61 @@
             <div id="div-home-services" class="col-lg" style="    width: 50%;min-height: 40px;float: right; line-height: 40px;color: white;padding-left: 285px;">Home / Portfolio</div>
          </div>
       </header>
-      <!-- Portfolio -->
-      <div >
-         <div class="d-flex justify-content-center pt-5 pb-4">
-            <button class="btn portfolio_btn" type="button">ALL</button>
-            <button class="btn portfolio_btn" type="button">APP</button>
-            <button class="btn portfolio_btn" type="button">CARD</button>
-            <button class="btn portfolio_btn" type="button">WEB</button>
+      <!-- OUR TEAM cards -->
+      <div class="our_team_div">
+         <div>
+            <h5 class="our_team">OUR TEAM</h5>
          </div>
-         <div class="container d-flex pb-5 img_container_div">
-            <div class="img_column">
-               <img class="img-fluid p-2 portfolio_img" src="mon_img/curology.PNG">
-               <img class="img-fluid p-2 portfolio_img" src="mon_img//stool.PNG">
+         <div id="about_carousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+               <li data-target="#about_carousel" data-slide-to="0" class="active"></li>
+            </ol>
+            <div class="carousel-inner">
+               <div classl="carousel-item active">
+               </div>
             </div>
-            <div class="img_column">
-               <img class="img-fluid p-2 portfolio_img" src="mon_img//honey_comb.PNG">
-               <img class="img-fluid p-2 portfolio_img" src="mon_img//lamp.PNG">
-               <img class="img-fluid p-2 portfolio_img" src="mon_img//watch.PNG">
-            </div>
-            <div class="img_column">
-               <img class="img-fluid p-2 portfolio_img" src="mon_img//plant.PNG">
-               <img class="img-fluid p-2 portfolio_img" src="mon_img//sunglass.PNG">
-               <img class="img-fluid p-2 portfolio_img" src="mon_img//lens.PNG">
-               <img class="img-fluid p-2 portfolio_img" src="mon_img//glass.PNG">
+         </div>
+         <div class="container text-center">
+            <p><small>
+               Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.
+               </small>
+            </p>
+         </div>
+         <div class="container">
+            <div class="card-deck">
+               <div class="card">
+                  <img src="mon_img/walter_white.png" class="card-img-top" alt="Walter White image">
+                  <div class="card-body">
+                     <h5 class="card-title">Walter White</h5>
+                     <p class="card-text"><small class="text-muted">Chief Executive Officer</small></p>
+                  </div>
+               </div>
+               <div class="card">
+                  <img src="mon_img/sarah_jhonson.png" class="card-img-top" alt="Sarah Jhonson image">
+                  <div class="card-body">
+                     <h5 class="card-title">Sarah Jhonson</h5>
+                     <p class="card-text"><small class="text-muted">Product Manager</small></p>
+                  </div>
+               </div>
+               <div class="card">
+                  <img src="mon_img/william_anderson.png" class="card-img-top" alt="William Anderson image">
+                  <div class="card-body">
+                     <h5 class="card-title">William Anderson</h5>
+                     <p class="card-text"><small class="text-muted">CTO</small></p>
+                  </div>
+               </div>
+               <div class="card">
+                  <img src="mon_img/amanda_jepson.png" class="card-img-top" alt="Amanda Jepson image">
+                  <div class="card-body">
+                     <h5 class="card-title">Amanda Jepson</h5>
+                     <p class="card-text"><small class="text-muted">Accountant</small></p>
+                  </div>
+               </div>
             </div>
          </div>
       </div>
+      <!-- Skills progress bar -->
+      <!-- CLIENTS -->
       <!-- Footer -->
       <footer class="text-lg-start text-muted" style="padding-top: 1px; background-color: rgb(32, 32, 32);
       color: rgb(255, 255, 25");">
@@ -230,8 +258,6 @@
       <!-- Copyright -->
       </footer>
       <!-- Footer -->
-      <!-- JavaScript -->
-      <script src="myScript.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
    </body>
