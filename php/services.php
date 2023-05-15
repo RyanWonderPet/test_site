@@ -1,23 +1,18 @@
+
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-      <title>contact</title>
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-      <link rel="stylesheet" href="css/main.css">
-      <link rel="stylesheet" href="/css/all.min.css">
-      <style>
-        .error {
-          color: #FF0000;
-          margin: auto;
-        }
-      </style>
+    <head >
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Test Site</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="css/main.scss">
     </head>
+    <body>
 
-    <header>
+<header>
     <nav class="navbar navbar-expand-lg navbar-light">
     <a class="navbar-brand font-weight-bold" style="margin-left: 150px" href="#">
     <span style="color: green">TEST</span>SITE</a>
@@ -86,15 +81,15 @@
   </div>
 </nav>
 
-<div class="home/services">
+<div class="Home/Services">
     <div class="">
-        <div class="float-left text-white" style="background-color:rgb(38, 204, 40 ); width: 100%; height: 40px; padding-top: 8px"><span style="margin-left: 168px;">Contact<span class="float-right" style="margin-right: 220px;">Home / Contact<span></span></span></span></div>
+        <div class="float-left text-white" style="background-color:rgb(38, 204, 40 ); width: 100%; height: 40px; padding-top: 8px"><span style="margin-left: 168px;">Services<span class="float-right" style="margin-right: 220px;">Home / Services<span></span></span></span></div>
     </div>
 </div>
 </header>
-    <body>
 
 
+<body>
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
@@ -102,116 +97,181 @@
     <script src="https://kit.fontawesome.com/ccb46faed6.js" crossorigin="anonymous"></script>
 
 
-    <section>
-  <div style="margin-bottom: 40px;">
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15329.254440719122!2d119.97067284870168!3d16.152769852619773!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3393dcce6b855bc1%3A0x5e83d788b8e10269!2sPoblacion%2C%20Alaminos%2C%20Pangasinan!5e0!3m2!1sen!2sph!4v1683604336340!5m2!1sen!2sph" width="100%" height="300" frameborder="1" style="border: 1px;"></iframe>
-</div>
-</section>
+<div class="box">
+    <div id="newcontain" class="container">
+     	<div class="row">
 
-<div class="container col-md-8 offset-md-2 shadow" style="margin-bottom: 20px;">
-  <div class="row">
-    <div class="col-sm">
-      <h2><i class="fa-solid fa-location-dot" style="color: #16d44f; font-size: 30px;"></i>&nbsp; location</h2>
-      <p>&emsp; &emsp; A108 Adam Street <br> &emsp;&emsp;&nbsp; New York, NY 535022</p>
+<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+    <div id="boxes" class="box-part text-center">
+        <img class="pic1" src="img/1st.png" class="card-img-top" alt="...">
+
+        <div class="title">
+	    	<h4>Lorem Ipsum</h4>
+		</div>
+
+        <div class="text">
+			<span>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</span>
+		</div>
+
     </div>
-    <div class="col-sm">
-    <h2><i class="fa-regular fa-envelope" style="color: #16d44f;  font-size: 30px; font-size: 30px;"></i>&nbsp; Email</h2>
-    <p>&emsp;&nbsp;&nbsp;&nbsp; &emsp; info@example.com, <br> &emsp;&nbsp;&nbsp;&nbsp; &emsp; contact@exaple.com</p>
-    </div>
-    <div class="col-sm">
-    <h2><i class="fa-solid fa-mobile-button" style="color: #16d44f; font-size: 30px;"></i>&nbsp; Call</h2>
-    <p>&emsp;&nbsp; &emsp; info@example.com, <br> &emsp;&nbsp; &emsp; contact@exaple.com</p>
-    </div>
-  </div>
-</div>
-<!-- PHP validation -->
-<?php
-$nameErr = $emailErr = $messageErr = $subjectErr = "";
-$name = $email = $message = $subject = "";
-$complete = 0;
-
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-  if (empty($_POST["name"])) {
-    $nameErr = "*Name is required";
-  } else {
-    $name = test_input($_POST["name"]);
-    $complete += 1;
-  }
-  
-  if (empty($_POST["email"])) {
-    $emailErr = "*Email is required";
-  } else {
-    $email = test_input($_POST["email"]);
-    $complete += 1;
-  }
-    
-  if (empty($_POST["subject"])) {
-    $subjectErr = "*Subject is required";
-  } else {
-    $subject = test_input($_POST["subject"]);
-    $complete += 1;
-  }
-
-  if (empty($_POST["message"])) {
-    $messageErr = "*Message is required";
-  } else {
-    $message = test_input($_POST["message"]);
-    $complete += 1;
-  }
-}
-
-function test_input($data) {
-  $data = trim($data);
-  $data = stripslashes($data);
-  $data = htmlspecialchars($data);
-  return $data;
-}
-?>
-
-<form method="post" class="col-md-8 offset-md-2 shadow"       style="margin-bottom: 20px; padding: 2%" >
-  <div class="form-row">
-    <div class="form-group col-md-6">
-      <input name="name" type="text" class="form-control" id="inputEmail4" placeholder="Your Name" ><br>
-      <span class="error"><?php echo $nameErr;?></span>
-    </div>
-    <div class="form-group col-md-6">
-      <input name="email" type="email" class="form-control" id="inputPassword4" placeholder="Your Email" ><br>
-      <span class="error"><?php echo $emailErr;?></span>
-    </div>
-  </div>
-
-  <div class="form-group">
-    <input name="subject" type="text" class="form-control" id="inputAddress" placeholder="Subject"><br>
-    <span class="error"><?php echo $subjectErr;?></span>
-  </div>
-  <div class="form-group">
-  <textarea name="message" class="form-control" rows="5" id="comment" placeholder="Message"></textarea>
-  <span class="error"><?php echo $messageErr;?></span>
 </div>
 
+<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+    <div id="midbox" class="box-part text-center">
+        <img class="pic1" src="img/pic 2.png" class="card-img-top" alt="...">
+
+        <div class="title">
+			<h4>Twitter</h4>
+		</div>
+
+        <div class="text">
+			<span>Lorem ipsum dolor sit amet, id quo eruditi eloquentiam. Assum decore te sed. Elitr scripta ocurreret qui ad.</span>
+		</div>
+
+    </div>
+</div>
+
+<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+    <div id="boxess" class="box-part text-center">
+        <img class="pic1" src="img/pic3.png" class="card-img-top" alt="...">
+
+        <div class="title">
+			<h4>Facebook</h4>
+		</div>
+
+		<div class="text">
+			<span>Lorem ipsum dolor sit amet, id quo eruditi eloquentiam. Assum decore te sed. Elitr scripta ocurreret qui ad.</span>
+		</div>
+
+	</div>
+</div>
+
+<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+	<div id="bot1" class="box-part text-center">
+        <img class="pic1" src="img/pic4.png" class="card-img-top" alt="...">
+
+        <div class="title">
+		    <h4>Pinterest</h4>
+		</div>
+
+		<div class="text">
+			<span>Lorem ipsum dolor sit amet, id quo eruditi eloquentiam. Assum decore te sed. Elitr scripta ocurreret qui ad.</span>
+		</div>
+
+    </div>
+</div>
+
+
+<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+    <div id="bot2" class="box-part text-center">
+        <img class="pic1" src="img/pic5.png" class="card-img-top" alt="...">
+
+        <div class="title">
+		    <h4>Google</h4>
+		</div>
+
+		<div class="text">
+			<span>Lorem ipsum dolor sit amet, id quo eruditi eloquentiam. Assum decore te sed. Elitr scripta ocurreret qui ad.</span>
+		</div>
+
+     </div>
+</div>
+
+<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+	<div id="bot3" class="box-part text-center">
+        <img class="pic1" src="img/pic6.png" class="card-img-top" alt="...">
+
+        <div class="title">
+			<h4>Github</h4>
+		</div>
+
+		<div class="text">
+			<span>Lorem ipsum dolor sit amet, id quo eruditi eloquentiam. Assum decore te sed. Elitr scripta ocurreret qui ad.</span>
+		</div>
+    </div>
+</div>
+
+        </div>
+    </div>
+</div>
+
+<div>
+    <h1 class="text-center" style="font-size: 22px; margin-top: 2%;">FEATURES</h1>
+    <p class="text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus suscipit fugit excepturi rem! Consequuntur voluptate voluptatibus totam qui quasi, <br >dolorem distinctio, saepe veniam, nulla ex vel nobis et culpa repellat?</p>
+</div>
+
+<div class="card-deck" style="padding-left: 14.5%; padding-right: 14.5%; padding-top: 2%">
+  <div class="card shadow " style="height:  60px">
+    <div class="card-body">
+      <h5 class="card-title" style="font-size: 15px"><i class="fa-solid fa-store" style="color: #f0ea47;"></i>&nbsp; Lorem Ipsum</h5>
+    </div>
   </div>
 
-  <div class="d-flex justify-content-center">
-          <button type="submit" class="btn btn-outline-success text-white bg-success">Send Message  </button>
+  <div class="card shadow " style="height:  60px">
+    <div class="card-body">
+      <h5 class="card-title" style="font-size: 15px"><i class="fa-solid fa-chart-simple" style="color: #2e6ad1;"></i>&nbsp;Dolor Sitama</h5>
+    </div>
+
+  </div>
+  <div class="card shadow " style="height:  60px">
+    <div class="card-body">
+      <h5 class="card-title" style="font-size: 15px"><i class="fa-solid fa-calendar" style="color: #fc47ff;"></i>&nbsp; Sed perspiciatis</h5>
+    </div>
   </div>
 
-  <div class="container text-success">
-    <?php
-      if ($complete == 4) {
-        echo "Message sent!";
-      }
-    ?>
+  <div class="card shadow " style="height:  60px">
+    <div class="card-body">
+      <h5 class="card-title" style="font-size: 15px"><i class="fa-solid fa-paint-roller" style="color: #ea57e5;"></i>&nbsp; Magni dolores</h5>
+    </div>
   </div>
-</form>
+</div>
 
+</div>
+<div class="card-deck" style="padding-left: 14.5%; padding-right: 14.5%; padding-top: 2%">
+  <div class="card shadow " style="height:  60px">
+    <div class="card-body">
+      <h5 class="card-title" style="font-size: 15px"><i class="fa-solid fa-coins" style="color: #1e95f1;"></i>&nbsp; Nemo enim</h5>
+    </div>
+  </div>
+  <div class="card shadow " style="height:  60px">
+    <div class="card-body">
+      <h5 class="card-title" style="font-size: 15px"><i class="fa-regular fa-circle-dot" style="color: #eac980;"></i>&nbsp;Eiusmod tempor</h5>
+    </div>
+  </div>
+  <div class="card shadow " style="height:  60px">
+    <div class="card-body">
+      <h5 class="card-title" style="font-size: 15px"><i class="fa-solid fa-clipboard-list" style="color: #51e1d8;"></i>&nbsp;Midela taren</h5>
+    </div>
+  </div>
+  <div class="card shadow " style="height:  60px">
+    <div class="card-body">
+      <h5 class="card-title" style="font-size: 15px"><i class="fa-solid fa-warehouse" style="color: #2452a3;"></i>&nbsp;Pira Neve</h5>
+    </div>
+  </div>
+</div>
 
-</body>
-
-
-
-
-
-
+<div class="card-deck" style="padding-left: 14.5%; padding-right: 14.5%; padding-top: 2%; padding-bottom: 2%">
+  <div class="card shadow " style="height:  60px">
+    <div class="card-body">
+      <h5 class="card-title" style="font-size: 15px"><i class="fa-solid fa-anchor" style="color: #d18010;"></i>&nbsp;Dirada pack</h5>
+    </div>
+  </div>
+  <div class="card shadow " style="height:  60px">
+    <div class="card-body">
+      <h5 class="card-title" style="font-size: 15px"><i class="fa-regular fa-circle-play" style="color: #a52275;"></i>&nbsp;Moton ideal</h5>
+    </div>
+  </div>
+  <div class="card shadow " style="height:  60px">
+    <div class="card-body">
+      <h5 class="card-title" style="font-size: 15px"><i class="fa-solid fa-tower-broadcast" style="color: #f1870e;"></i>&nbsp;Verdo Park</h5>
+    </div>
+  </div>
+  <div class="card shadow " style="height:  60px">
+    <div class="card-body">
+      <h5 class="card-title" style="font-size: 15px"><i class="fa-solid fa-fingerprint" style="color: #079711;"></i>&nbsp;Flavor Nivelanda</h5>
+    </div>
+  </div>
+</div>
 
 
 <!-- Footer -->
@@ -319,32 +379,35 @@ function test_input($data) {
   <!-- Section: Links  -->
 
   <!-- Copyright -->
-  <div class="text-left p-4 text-white" style="background-color: rgba(0, 0, 0, 0.952);">
-    © 2021 Copyright:
-    <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+  <div class="text-left p-4 text-white-50" style="background-color: rgba(0, 0, 0, 0.952);">
+    &emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;© Copyright <span class="text-white font-weight-bold" >TestSite.</span>
+    All Rights Reserve
     <div class="col-md-3 col-lg-2 col-xl-2 float-right mb-4">
     <div>
       <a href="" class="me-4 link-secondary">
-        <i class="fab fa-facebook-f"></i>
+      <i class="fa-brands fa-twitter" style="color: #d4d4d4;"></i>
       </a>
+      &nbsp;
       <a href="" class="me-4 link-secondary">
-        <i class="fab fa-twitter"></i>
+      <i class="fa-brands fa-facebook" style="color: #d4d4d4;"></i>
       </a>
+      &nbsp;
       <a href="" class="me-4 link-secondary">
-        <i class="fab fa-google"></i>
+      <i class="fa-brands fa-instagram" style="color: #d4d4d4;"></i>
       </a>
+      &nbsp;
       <a href="" class="me-4 link-secondary">
-        <i class="fab fa-instagram"></i>
+      <i class="fa-brands fa-skype" style="color: #d4d4d4;"></i>
       </a>
+      &nbsp;
       <a href="" class="me-4 link-secondary">
-        <i class="fab fa-linkedin"></i>
-      </a>
-      <a href="" class="me-4 link-secondary">
-        <i class="fab fa-github"></i>
+      <i class="fa-brands fa-linkedin-in" style="color: #d4d4d4;"></i>
       </a>
     </div>
   </div>
   <!-- Copyright -->
 </footer>
 <!-- Footer -->
+
+</body>
     </html>

@@ -1,0 +1,19 @@
+#div-wrapper
+{
+    width: 100%;
+    margin: auto;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: rgb(246, 246, 246);
+}
+
+.container
+{
+    width: 80%;
+}
+
+
+.card
+{
+    background-color: rgb(250, 255, 250);
+}
