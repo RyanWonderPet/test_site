@@ -1,16 +1,3 @@
-.navbar
-{
-    padding-left: 12%;
-    padding-right: 10%;
-    background-color: rgb(243, 247, 240);
-}
-
-.nav-link
-{
-    font-weight: bold;
-    font-size: 12px;
-}
-
 #wrapper
 {
     width: 100%;
