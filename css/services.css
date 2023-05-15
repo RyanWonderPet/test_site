@@ -1,0 +1,46 @@
+.navbar
+{
+    padding-left: 12%;
+    padding-right: 10%;
+    background-color: rgb(243, 247, 240);
+}
+
+.nav-link
+{
+    font-weight: bold;
+    font-size: 12px;
+}
+
+#wrapper
+{
+    width: 100%;
+    background-color: rgb(233, 233, 233);
+    min-height: 30rem;
+}
+
+.container
+{
+    width: 70%;          
+}
+
+.card-img-top
+{
+    height: 4rem;
+    width: 4rem;
+    justify-content: center;
+}
+
+.card-title 
+{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.card-text
+{
+    font-size: 12px;
+}
+
+
+
+

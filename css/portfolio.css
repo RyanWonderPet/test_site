@@ -1,6 +1,10 @@
-.clearfix::after
-    {
-        content: "";
-        display: block;
-        clear: both;
-    }
+
+/* Portfolio  */
+.img_column {
+    width: 33%;
+}
+.portfolio_btn:focus {
+    background-color: green;
+    color: white;
+}
+
