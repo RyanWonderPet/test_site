@@ -182,7 +182,6 @@
 .vertical_line_text {
     background-color: #f4f4f4;
     height: 200px;
-    font-size: 1.3em;
     font-style: italic;
 }
 .comment_img {
@@ -198,16 +197,54 @@
 .blogsingle_input_lg {
     width: 100%;
 }
+.le {
+    font-weight: 450;
+}
 
 
 /* Pricing */
-.with_ribbon {
+.div_2 {
+    width: 100%;
+}
+.pricing_card_div {
+    position: relative;
+    width: 100%;
+    border-color: red;
     overflow: hidden;
 }
+.card_header {
+    color: #5A5A5A;
+}
+.card_header:active {
+    color: white;
+    background-color: #4BB543;
+}
+.card_header:focus {
+    color: white;
+    background-color: #4BB543;
+}
+.card_header:hover {
+    color: white;
+    background-color: #4BB543;
+    text-decoration: none;
+}
+.with_ribbon {
+
+}
+.ribbon_container {
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    right: 0px;
+    aspect-ratio: 1 / 1;
+}
 .ribbon {
-    width: 400px;
-    transform: rotate(40deg);
-    padding-left: 47px;
+    width: 110%;
+    height: 10%;
+    rotate: 45deg;
+    position: absolute;
+    right: -41%;
+    top: 9%;
 }
 
 
