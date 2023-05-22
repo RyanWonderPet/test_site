@@ -62,15 +62,19 @@
 
 
 /* About page */
+/*Eum-Ipsam*/
 .deep_dropdown {
     padding-left: 7%;
+}
+.hr_about {
+    width: 50px;
+    height: 2px;
 }
 .carousel-indicators .active {
     background-color: #4BB543;
 }
 .our_team {
     text-align: center;
-    margin-bottom: 3%;
 }
 .our_team_div {
     background-color: rgb(241, 241, 241);

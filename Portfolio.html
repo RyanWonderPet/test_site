@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- CSS -->
-    <link rel="stylesheet" href="styles_mon.css">
+    <link rel="stylesheet" href="styles2.css">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
@@ -27,9 +27,9 @@
         <div class="collapse navbar-collapse justify-content-end" id="menu_div">
             <div class="navbar-nav">
                 <div class="nav-item">
-                    <a class="nav-link text-dark font-weight-bold" href="#">HOME</a>
+                    <a class="nav-link text-dark font-weight-bold pr-3" href="#">HOME</a>
                 </div>
-                <div class="nav-item dropdown">
+                <div class="nav-item dropdown pr-3">
                     <a class="nav-link text-dark font-weight-bold dropdown-toggle" data-toggle="dropdown" href="#">ABOUT</a>
 
                     <div class="dropdown-menu dropright border-0">
@@ -44,24 +44,41 @@
                             </div>
                     </div>
                 </div>
-                <div class="nav-item">
+                <div class="nav-item pr-3">
                     <a class="nav-link text-dark font-weight-bold" href="#">SERVICES</a>
                 </div>
-                <div class="nav-item">
+                <div class="nav-item pr-3">
                     <a class="nav-link text-dark font-weight-bold" href="Portfolio.html">PORTFOLIO</a>
                 </div>
-                <div class="nav-item">
+                <div class="nav-item pr-3">
                     <a class="nav-link text-dark font-weight-bold" href="Pricing.html">PRICING</a>
                 </div>
-                <div class="nav-item">
+                <div class="nav-item pr-3">
                     <a class="nav-link text-dark font-weight-bold" href="Blog.html">BLOG</a>
                 </div>
-                <div class="nav-item">
+                <div class="nav-item pr-3">
                     <a class="nav-link text-dark font-weight-bold" href="#">CONTACT</a>
+                </div>
+                <div class="nav-item d-flex pr-3">
+                    <a class="d-flex align-items-center pr-1" href="#">
+                        <i class="fa-brands fa-twitter text-secondary"></i>
+                    </a>
+                    <a class="d-flex align-items-center pr-1" href="#">
+                        <i class="fa-brands fa-facebook text-secondary"></i>
+                    </a>
+                    <a class="d-flex align-items-center pr-1" href="#">
+                        <i class="fa-brands fa-instagram text-secondary"></i>
+                    </a>
+                    <a class="d-flex align-items-center pr-1" href="#">
+                        <i class="fa-brands fa-linkedin text-secondary"></i>
+                    </a>
                 </div>
             </div>
         </div>
     </nav>
+    <!-- Navigation -->
+
+    
 
     <div class="bg-success">
         <div class="container d-flex p-3">
@@ -78,26 +95,26 @@
     <!-- Portfolio -->
     <div >
       <div class="d-flex justify-content-center pt-5 pb-4">
-        <button class="btn portfolio_btn" type="button">ALL</button>
-        <button class="btn portfolio_btn" type="button">APP</button>
-        <button class="btn portfolio_btn" type="button">CARD</button>
-        <button class="btn portfolio_btn" type="button">WEB</button>
+        <button class="btn portfolio_btn" type="button" onClick="allBtn()">ALL</button>
+        <button class="btn portfolio_btn" type="button" onClick="plantBtn()">PLANT</button>
+        <button class="btn portfolio_btn" type="button" onClick="glassBtn()">GLASS</button>
+        <button class="btn portfolio_btn" type="button" onClick="lightBtn()">LIGHT</button>
       </div>
       <div class="container d-flex pb-5 img_container_div">
         <div class="img_column">
-          <img class="img-fluid p-2 portfolio_img" src="images/curology.PNG">
-          <img class="img-fluid p-2 portfolio_img" src="images/stool.PNG">
+          <img class="img-fluid p-2 portfolio_img plant" src="images/plant1.PNG">
+          <img class="img-fluid p-2 portfolio_img glass" src="images/glass1.PNG">
+          <img class="img-fluid p-2 portfolio_img light" src="images/light1.PNG">
         </div>
         <div class="img_column">
-          <img class="img-fluid p-2 portfolio_img" src="images/honey_comb.PNG">
-          <img class="img-fluid p-2 portfolio_img" src="images/lamp.PNG">
-          <img class="img-fluid p-2 portfolio_img" src="images/watch.PNG">
+          <img class="img-fluid p-2 portfolio_img light" src="images/light2.jpg">
+          <img class="img-fluid p-2 portfolio_img plant" src="images/plant2.jpg">
+          <img class="img-fluid p-2 portfolio_img glass" src="images/glass2.jpg">
         </div>
         <div class="img_column">
-          <img class="img-fluid p-2 portfolio_img" src="images/plant.PNG">
-          <img class="img-fluid p-2 portfolio_img" src="images/sunglass.PNG">
-          <img class="img-fluid p-2 portfolio_img" src="images/lens.PNG">
-          <img class="img-fluid p-2 portfolio_img" src="images/glass.PNG">
+          <img class="img-fluid p-2 portfolio_img glass" src="images/glass3.jpg">
+          <img class="img-fluid p-2 portfolio_img light" src="images/light3.jpg">
+          <img class="img-fluid p-2 portfolio_img plant" src="images/plant3.webp">
         </div>
       </div>
     </div>
